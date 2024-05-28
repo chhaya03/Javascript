@@ -1,0 +1,16 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px black;
+    margin-top: 20px;
+}
+
