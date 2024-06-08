@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para1" style="background-color: aqua;">Hello i am learnng javascript dom.</p>
+    <p id="para2" style="font-size: 2rem; color: brown; background-color: chartreuse;">Hello i am learnng javascript
+        Bom.</p>
+    <p id="para3" style="background-color: aqua; color: red;">This document object model.</p>
+    <p id="para4">I am setting attributes in this text using js</p>
+
+
+    <!-- javascript code -->
+
+    <script>
+
+        // changes in html document
+
+        //these methods is used to update content
+        document.getElementById("para1").innerHTML = "Chhaya";
+        document.getElementById("para2").textContent = "mishra";
+        document.getElementById("para3").innerHTML = "hello";
+
+
+        // these methods is used to insert new text
+        para1.insertAdjacentHTML('beforebegin', 'hii');
+        para2.insertAdjacentHTML('afterend', 'listen');
+
+
+
+
+
+        //changes in css property
+        // change in only single property
+        para3.style.color = 'blue';                    // changes in para3 text color red to blue
+        para1.style.backgroundColor = 'red';          // changes in para1 background color aqua to red
+
+        // changes in multiple property at a time
+        para2.style.cssText = 'color:black; background-color:yellow; font-size:5rem;';     // changes in para2 background color and font size 
+
+
+
+        // set css styling to content 
+        para4.setAttribute("style", "color:orange; background-color:blue;");
+    </script>
+
+</body>
+
+</html>

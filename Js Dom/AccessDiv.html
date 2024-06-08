@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 5px;
+        text-align: center;
+        background-color: aquamarine;
+
+    }
+</style>
+
+<body>
+
+    <div class="box">first div</div>
+    <div class="box">sec div</div>
+    <div class="box">third div</div>
+
+
+    <!--  Javascript code -->
+    <Script>
+
+
+        //access of individual div 
+        let divs = document.querySelectorAll(".box");
+        console.log(divs);
+        console.log(divs[0]);
+        console.log(divs[1]);
+
+
+
+    </Script>
+
+</body>
+
+</html>
